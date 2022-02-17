@@ -1,0 +1,35 @@
+<div>
+  <div class="screen">
+    {{x}}
+  </div>
+  <div class="screen2">
+    <button (click)="display('%')">%</button>
+    <button (click)="display('CE')">CE</button>
+    <button (click)="display('C')">C</button>
+    <button (click)="display('DEL')">DEL</button>
+    <button (click)="display('1/x')">1/x</button>
+    <button (click)="display('√')">√x</button>
+    <button (click)="display('^2')">sqr</button>
+    <button (click)="display('/')">÷</button>
+    <button (click)="display('7')">7</button>
+    <button (click)="display('8')">8</button>
+    <button (click)="display('9')">9</button>
+    <button (click)="display('x')">x</button>
+    <button (click)="display('4')">4</button>
+    <button (click)="display('5')">5</button>
+    <button (click)="display('6')">6</button>
+    <button (click)="display('-')">-</button>
+    <button (click)="display('1')">1</button>
+    <button (click)="display('2')">2</button>
+    <button (click)="display('3')">3</button>
+    <button (click)="display('+')">+</button>
+    <button (click)="display('-/+')">-/+</button>
+    <button (click)="display('0')">0</button>
+    <button (click)="display('.')">.</button>
+    <button (click)="display2('')">=</button>
+  </div>
+</div>
+<h1>{{ab}}</h1>
+<h2 *ngFor="let item of items">
+  {{item.title}}
+</h2>
